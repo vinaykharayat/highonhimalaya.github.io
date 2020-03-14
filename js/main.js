@@ -208,6 +208,13 @@
     });
   
   };
+  
+  var bookbutton = function(){
+	  $('#book_now').on('click', function (e) {
 
+     window.open("https://www.google.com","_self")
 
+})
+
+  }
 })(jQuery);
